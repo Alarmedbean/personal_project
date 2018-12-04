@@ -1,0 +1,92 @@
+body {
+	background-image: url(../images/ovo2.png);
+	font: 100% sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+main,
+section {
+	display: block;
+}
+table, 
+th,
+td {
+    border: 6px ;
+    border-collapse: collapse;
+    color: white
+} 
+
+main,
+aside {
+	float: center;
+}
+
+li,
+p {
+	font-family: georgia;
+}
+
+p {
+	font-size: 1.1em;
+    color: white
+}
+
+/* Links */
+a:link {
+	color:#7b3cb0;
+	font-weight: bold;
+}
+
+
+
+a:hover {
+	color: whitesmoke;
+	font-weight: bold;
+	text-decoration: underline;
+}
+h2 {
+    color: #61c7e9;
+}
+
+
+/* TABLE OF CONTENTS
+---------------------------------- */
+.toc {
+	background: #D4D4D4;
+	border-bottom: 3px solid #E0E0E0;
+	margin-top: 0;
+	overflow: hidden;
+	padding: 16px 0 14px 42px;
+}
+
+.toc li {
+	float: left;
+	margin-right: 5em;
+}
+
+.toc a {
+	font-family: 'Roboto Slab', serif;
+	color: #450800;
+	font-size: .9375em;
+}
+
+/* FOOTER
+---------------------------------- */
+footer {
+	background: #D4D4D4;
+	clear: both;
+	color: #444;
+	border-top: 2px solid #E0E0E0;
+	padding: 5px 10px 10px 35px;
+}
+
+footer p {
+	font-size: 1em;
+	margin: 0;
+}
